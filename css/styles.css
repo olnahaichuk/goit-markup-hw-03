@@ -1,18 +1,46 @@
-
-
+* ,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1, h2, h3,
+p{
+    margin:0;
+}
+ul{
+    margin:0;
+    padding-left: 0;
+}
+.container{
+    display:flex;
+    max-width: 1158px;
+    padding-left: 156px;
+    padding-right: 156px ;
+    margin-left: auto;
+     margin-right: auto;
+}
 body{
    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #ffffff;
     line-height: 1.5;
 }
+/* Page header */
 .page-header{
     color: #FFFFFF;
+   
+
+}
+ .page-header .container{
+    border-bottom: 1px solid #E7E9FC;
+    margin: 24 156;
+    
 
 }
 .name-web{
     font-family: 'Raleway' , sans-serif;
          color: #4D5AE5;
+         display:block;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
@@ -20,6 +48,8 @@ body{
         text-transform: uppercase;
         text-decoration: none;
         text-align: right;
+        
+        
 
 }
 .color-studio{
@@ -27,6 +57,9 @@ body{
 }
 
 .page-item {
+    display:inline-block;
+    flex-direction: row;
+    gap:20px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -58,6 +91,7 @@ body{
 }
 .links-contacts ,
 .contacts-link{
+    
     font-family: 'Roboto', sans-serif;
     color: #434455;
     text-decoration: none;
@@ -65,6 +99,7 @@ body{
     line-height: 1.5;
      font-weight: 400;
      font-size: 16px;
+     display:flex;
   
 }
 
@@ -73,6 +108,7 @@ body{
     color:#404BBF;
     
 }
+/* Main Page */
 .main-page ,
 .page{
     background-color: #2E2F42 ;
@@ -157,6 +193,7 @@ font-weight: 500;
     color: #434455;
     
 }
+/* Footer page */
 .footer-page{
     background-color: #2E2F42;
 }
