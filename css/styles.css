@@ -23,8 +23,8 @@ img{
      width: 1158px;
      padding-left: 15px;
      padding-right: 15px ;
-     margin-left: auto;
-     margin-right: auto;
+     margin:0 auto;
+     
 }
 body{
    font-family: 'Roboto', sans-serif;
@@ -38,19 +38,16 @@ body{
 }
 /* Page header */
 .page-header{
+    border-bottom: 1px solid #E7E9FC;
     color: #FFFFFF;
 }
-.page-nav,
-.page-item,
-.links-contacts{
-    display:flex;
+header > .container{
+    display: flex;
 }
-
- .header-sec{
-    border-bottom: 1px solid #E7E9FC;
-    
+.page-nav{
+    display: flex;
+    align-items: center;
 }
-
 .name-web{
     font-family: 'Raleway' , sans-serif;
          color: #4D5AE5;
@@ -59,25 +56,33 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        padding-right: 76px;
+        margin-right: 76px
          
 }
+
 
 .color-studio{
     color: #2E2F42;
 }
 
 .page-item {
+    display:flex;
+    gap:40px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
     list-style-type: none;
 }
+.page-item:last-child{
+    margin-right: 0;
+}
 .page-item:hover,
 .page-item:active {
     color: #404BBF;
 } 
-
+.items{
+    padding: 24px 0;
+}
 .page-nav .items ,
 .items-color
 {
@@ -91,16 +96,18 @@ body{
 
 .info-page{
     font-style: normal;
-    letter-spacing: 0.02em ;  
+    letter-spacing: 0.02em ; 
+    margin-left: 232px; 
 }
-.info-page ,
-.page-nav{
-    padding-top: 24px;
-    padding-bottom: 24px;
+.links-contacts{
+    display: flex;
+    gap: 40px;
+}
+.links-contacts:last-child{
+    margin-right: 0;
 }
 .links-contacts ,
 .contacts-link{
-    gap:40px;
     font-family: 'Roboto', sans-serif;
     color: #434455;
     line-height: 1.5;
@@ -114,12 +121,12 @@ body{
     
 }
 /* Main Page */
-.main-page-sec{
+.main-page{
 background-color: #2E2F42;
 }
 .main-page ,
 .page{
-    color: #ffffff;
+    color:  #ffffff;
     font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -156,7 +163,7 @@ background-color: #2E2F42;
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-.main-word-section{
+.main-word{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -203,7 +210,7 @@ font-weight: 500;
     background-color: #2E2F42;
     color: #4D5AE5;
     line-height: 1.17;
-    letter-spacing: 0.03e;
+    letter-spacing: 0.03em;
 }
 
 .footer-page .color-studio{
