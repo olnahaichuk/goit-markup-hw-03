@@ -165,7 +165,7 @@ header > .container{
 .descr-section{
     padding: 120px 0;
 }
-.main-word{
+.text-title{
     margin-bottom: 8px;
 }
 .visually-hidden{
@@ -210,9 +210,10 @@ header > .container{
 .team-list{
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
 }
-.team-list:first-child{
+
+.team-list:first-child {
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 .emp-name{
@@ -304,10 +305,11 @@ font-weight: 500;
     
 }
 /* Footer page */
-
+.footer-page-cont{
+    padding: 100px 0;
+}
 .footer-page{
     background-color: #2E2F42;
-    padding: 100px 0;
 }
 .footer-page .name-web{
      display: inline-block;
