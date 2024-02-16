@@ -180,11 +180,11 @@ header > .container{
     clip:rect(0 0 0 0);
     overflow: hidden;
 }
-.text-list{
+.text-list {
     display: flex;
     gap:24px;
 }
-.text-items:first-child {
+.text-items {
     width: calc((100% - 72px) / 4);
 } 
 .text-list:last-child{
