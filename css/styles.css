@@ -184,13 +184,13 @@ header > .container{
     display: flex;
     gap:24px;
 }
-.text-items:first-child{
-    width: calc((100% - 72px) / 4);
-}
+
 .text-list:last-child{
     margin-right: 0;
 }
-
+.text-items:first-child {
+    width: calc((100% - 72px) / 4);
+}
 
 /* Section 3  */
 .page-team-section{
