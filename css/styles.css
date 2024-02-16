@@ -184,7 +184,7 @@ header > .container{
     display: flex;
     gap:24px;
 }
-.text-list .text-items:first-child {
+.text-items:first-child {
     width: calc((100% - 72px) / 4);
 } 
 .text-list:last-child{
