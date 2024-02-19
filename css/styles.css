@@ -62,7 +62,7 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
-        text-decoration: underline;
+       
          
 }
 .color-studio{
@@ -88,7 +88,6 @@ body{
     padding: 24px 0;
     display: block;
     color: #2E2F42;
-    text-decoration: underline;
 }
 
 .items:hover ,
@@ -116,7 +115,6 @@ body{
      font-size: 16px;
       display: flex;
       gap: 40px;
-      text-decoration: underline;
 }
 .contacts-link:hover ,
 .contacts-link:focus{
@@ -185,6 +183,13 @@ padding: 120px 0;
         margin-bottom: 8px;  
         text-align: left;  
 }
+.main-text {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
 
 .visually-hidden{
     position: absolute;
@@ -247,14 +252,6 @@ font-weight: 700;
 .emp-name .item-name,
 .emp-name .descr{
     text-align: center;
-}
-.main-text{
-    color: #434455;
-    font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    padding-right:24px;
 }
 /* Section 4 */
 .portfolio-section{
@@ -337,7 +334,6 @@ font-weight: 500;
      color: #4D5AE5;
      line-height: 1.17;
      letter-spacing: 0.03em;
-    margin-left: 156px;
     text-decoration: none;
 }
 
@@ -350,7 +346,7 @@ font-weight: 500;
     color:#F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 156px;
+  
 }
 
 
